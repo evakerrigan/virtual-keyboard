@@ -89,6 +89,10 @@ window.addEventListener("load", () => {
                 Клавиатура создана в операционной системе Windows<br/>
                 Для переключения языка комбинация: левыe ctrl + alt
             </div>
+            <p>ссылка на pull request</p>
+            <a href="https://github.com/evakerrigan/virtual-keyboard/pull/3" target="_blank">            
+            https://github.com/evakerrigan/virtual-keyboard/pull/3
+            </a>
         </div>    
     </div>
     `;
