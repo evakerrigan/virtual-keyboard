@@ -49,9 +49,8 @@ h1 {
         background: $colorBackgroundKeyHover;
         cursor: pointer;        
     }
-    //&:active {
-        //background: $colorBorderKeyActive;
-    //}
+    transition: border-radius 0.3s, background-color 0.3s;
+   
 }
 .key-large {    
     flex-grow: 2;
@@ -67,11 +66,13 @@ h1 {
 .key.active {
     background: red;
     border-radius: 50%;
+    transition: border-radius 0.3s, background-color 0.3s;
     
 }
 .key.active-keyboard {
     background: yellow;
     border-radius: 50%;
+    transition: border-radius 0.3s, background-color 0.3s;
 }
 
 
